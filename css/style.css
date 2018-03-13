@@ -1,0 +1,318 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Global Settings */
+
+* {
+	vertical-align: baseline;
+	font-size: 100%;
+	border: 0 none;
+	outline: 0;
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	margin:2px auto;
+	padding:0;
+	width:970px;
+	background-color:#121212;
+	color:#555;
+	font-size:12px;
+	font-family: Tahoma, Verdana, sans-serif;
+}
+
+img{
+	border:none;
+}
+
+h1{
+	color:#181818;
+	font-weight: normal;
+	font-size:24px;
+	text-shadow: 0px 1px 0px #777;
+}
+
+h2{
+	color:#444;
+	font-weight: normal;
+	font-size:18px;
+}
+
+
+h3{
+	color:#57a5d2;
+	font-weight: normal;
+	font-size:14px;
+}
+
+label{
+	font-weight: bold;
+	font-variant: small-caps;
+	font-size: 10px;
+}
+
+input{
+	border:1px solid #ddd;
+	background-color:#fbfbfb;
+	font-size:18px;
+	padding:5px 5px 5px 5px;
+	width:300px;
+	color:#646060;
+}
+
+input:focus{
+	background-color:#fff;
+}
+
+
+#header{
+	float:left;
+	width:970px;
+	height:76px;
+}
+
+#headerLeft{
+	float:left;
+	width:649px;
+	height:76px;
+	background-image:url("../images/headerLeft.jpg");
+}
+
+#navContain{
+	float:left;
+	width:321px;
+	height:76px;
+}
+
+#navHome{
+	float:left;
+	width:70px;
+	height:76px;
+}
+
+#navSolutions{
+	float:left;
+	width:85px;
+	height:76px;
+}
+
+#navClients{
+	float:left;
+	width:71px;
+	height:76px;
+}
+
+#navContact{
+	float:left;
+	width:74px;
+	height:76px;
+}
+
+#homeTop{
+	float:left;
+	width:970px;
+	height:535px;
+	background-image:url("../images/homeTop.jpg");
+}
+
+#topPad{
+	float:left;
+	width:970px;
+	height:145px;
+}
+
+#leftPad{
+	float:left;
+	width:55px;
+	height:390px;
+}
+
+#screen{
+	float:left;
+	width:360px;
+	height:220px;
+}
+
+#midPad{
+	float:left;
+	width:100px;
+	height:220px;
+}
+
+#topContent{
+	float:left;
+	width:400px;
+	height:135px;
+}
+
+#topContent p{
+	font-size: 13px;
+	font-family: Arial, Verdana, sans-serif;
+	color:#fefefe;
+	text-shadow: 0px 1px 0px black;
+}
+
+#btnPad{
+	float:left;
+	width:180px;
+	height:60px;
+}
+#btn{
+	float:left;
+	width:185px;
+	height:60px;
+	display: block;
+}
+
+#bodyTop{
+	float:left;
+	width:970px;
+	height:164px;
+}
+
+#bodyStretch{
+	float:left;
+	width:970px;
+	height:auto !important;
+	height:398px;
+	min-height:398px;
+	background-image:url("../images/bodyStretch.jpg");
+}
+
+#contentLeft{
+	float:left;
+	width:30px;
+	height:20px;
+}
+
+#content{
+	float:left;
+	width:910px;
+	height:auto !important;
+}
+
+#numbers{
+	float:left;
+	width:49px;
+	height:283px;
+	background-image:url("../images/numbers.png");
+}
+
+#footer{
+	float:left;
+	width:970px;
+	height:339px;
+	background-image:url("../images/footer.jpg");
+	color:#eee;
+}
+
+#footerPad{
+	float:left;
+	width:100%;
+	height:50px;
+}
+
+#footerLeft{
+	float:left;
+	width:30px;
+	height:20px;
+}
+
+#footer h2{
+	color:#eee;
+	font-weight: normal;
+	font-size:18px;
+}
+
+#footerBtm{
+	float:left;
+	width:970px;
+	height:50px;
+}
+
+#copyright{
+	float:left;
+	width:970px;
+	text-align: center;
+	color:#eee;
+	font-size:10px;
+}
+
+#copyright a, a:visited{
+	color:#eee;
+	text-decoration: none;
+}
+
+.twocol{
+	float:left;
+	width:450px;
+}
+
+.smallInput{
+	font-size:12px;
+}
+
+
+.notification{
+	float:left;
+	width:900px;
+	height:30px;
+	padding-top:10px;
+}
+
+.err{
+	background-image:url("../images/error.png");
+	background-repeat: no-repeat;
+	color:#f22;
+	font-size:12px;
+	line-height: 16px;
+	padding-left:20px;
+}
+
+.warn{
+	background-image:url("../images/exclamation.png");
+	background-repeat: no-repeat;
+	color:#E8A317;
+	font-size:12px;
+	line-height: 16px;
+	padding-left:20px;
+}
+
+.success{
+	background-image:url("../images/success.png");
+	background-repeat: no-repeat;
+	color:#4CC417;
+	font-size:12px;
+	line-height: 16px;
+	padding-left:20px;
+}
+
+.submitBtn{
+	font-size:12px;
+	color:#646060;
+	border:1px solid #ddd;
+	width:111px;
+	height:31px;
+	cursor: pointer;
+	font-weight:bold;
+}
+
+.textbox{
+	border:1px solid #ddd;
+	background-color:#fbfbfb;
+	font-size:12px;
+	padding:5px 5px 5px 5px;
+	width:300px;
+	height:100px;
+	color:#646060;
+	font-family: Tahoma,Verdana,sans-serif;
+}
+
+.tblclient{
+	width:220px;
+	height:120px;
+	text-align: center;
+	vertical-align: middle;
+}
+
